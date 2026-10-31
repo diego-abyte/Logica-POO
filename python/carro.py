@@ -12,15 +12,16 @@ class Carro:
 
     def exibirInfo(self):
         # TODO 1: substitua pass por um print() que mostre marca, modelo e ano.
-        # Dica: print(f"Marca: {self.marca} | Modelo: {self.modelo} | Ano: {self.ano}")
-        pass
+        print(f"Marca: {self.marca} | Modelo: {self.modelo} | Ano: {self.ano}")
+        
 
 
 # TODO 2: crie DOIS objetos usando a classe Carro.
 # Sugestão: use carros de marcas, modelos e anos diferentes.
-# carro1 = Carro("...", "...", 2020)
-# carro2 = Carro("...", "...", 2024)
+carro1 = Carro("Toyota", "Corolla", 2020)
+carro2 = Carro("Volkswagen", "Gol", 2024)
 
 
 # TODO 3: chame exibirInfo() para os DOIS objetos criados.
-# Dica: carro1.exibirInfo()
+carro1.exibirInfo()
+carro2.exibirInfo()
